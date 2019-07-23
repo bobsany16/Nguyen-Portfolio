@@ -1,0 +1,12 @@
+.masthead .masthead-heading {
+    letter-spacing: 5px !important;
+    font-Size: 4rem !important;
+  }
+
+.masthead .masthead-avatar {
+    width: 30rem !important
+  }
+
+.masthead .masthead-subheading {
+    font-size: 3rem!important;
+}
