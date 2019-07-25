@@ -1,17 +1,69 @@
+/* My big name main page*/ 
+:root{
+  --primary: peru !important;
+}
 .masthead .masthead-heading {
-    letter-spacing: 5px !important;
+    letter-spacing: 15px !important;
     font-Size: 4rem !important;
   }
 
+/* my picture main page */
 .masthead .masthead-avatar {
-    width: 50rem !important
+    width: 25rem !important
   }
 
+/* My job title */
 .masthead .masthead-subheading {
-    font-size: 3rem!important;
+    letter-spacing: 10px !important
 }
 
-.img-fluid {
-  max-width: 50%!important;
-  height: 100px!important;
-} 
+/* Name left side header */ 
+.navbar-brand{
+  letter-spacing: 5px !important
+
+}
+
+/*The header's component*/ 
+.nav-link{
+  letter-spacing: 5px !important
+}
+
+/*The menu button when screen is shrunk*/
+.navbar-toggler{
+  letter-spacing: 2px !important
+}
+
+/* The porfolio heading */ 
+.page-section .page-section-heading{
+  letter-spacing: 5px !important
+}
+
+/*The footer components' headings */
+.mb-4{
+  letter-spacing: 5px !important
+}
+
+/*background for masthead*/ 
+.masthead{
+  background-color: peru !important
+}
+
+/*Nav-bar background color*/
+.navbar{
+  background-color: black !important
+}
+
+.footer{
+  background-color: black !important
+}
+
+.divider-custom .divider-custom-line{
+  background-color: black !important
+  
+}
+
+.divider-custom .divider-custom-icon{
+  color: black !important
+}
+
+

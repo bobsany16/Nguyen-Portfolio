@@ -10614,7 +10614,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #fff;
+  background-color: #fff !important
 }
 
 .divider-custom.divider-light .divider-custom-icon {
