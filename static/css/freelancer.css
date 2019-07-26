@@ -402,7 +402,7 @@ h6, .h6 {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .display-1 {
@@ -10715,8 +10715,8 @@ a.text-dark:hover, a.text-dark:focus {
   }
   /*To change background color when at section but hover at the nav bar item*/
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
-    background: black;
+    color: black;
+    background: indigo;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -10878,4 +10878,21 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #1a252f;
+}
+
+@-webkit-keyframes bg-pan-left {
+  0% {
+    background-position: 100% 50% !important;
+  }
+  100% {
+    background-position: 0% 50% !important;
+  }
+}
+@keyframes bg-pan-left {
+  0% {
+    background-position: 100% 50% !important;
+  }
+  100% {
+    background-position: 0% 50% !important;
+  }
 }
