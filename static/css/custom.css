@@ -5,7 +5,7 @@
 .masthead .masthead-heading {
     letter-spacing: 15px !important;
     font-Size: 4rem !important;
-    color: black!important;
+    color: white!important;
   }
 
 /* my picture main page */
@@ -16,7 +16,7 @@
 /* My job title */
 .masthead .masthead-subheading {
     letter-spacing: 10px !important;
-    color: black !important;
+    color: white !important;
     font-style: italic !important;
 }
 
@@ -39,8 +39,15 @@
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
-  background-color: indigo !important; 
-  color: #ffc107 !important; 
+  background-color: indigo;
+  color: white !important; 
+  background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent) !important;
+    background-blend-mode: screen !important;
+  border-color: black !important;
+
 }
 
 /* The headings for each sections */ 
@@ -51,20 +58,21 @@
 
 /*The footer components' headings */
 .mb-4{
-  letter-spacing: 5px !important
+  letter-spacing: 5px !important;
+  color: black !important;
 }
 
 /*background for masthead*/ 
 .masthead{
-  background-image: linear-gradient(#ffc107, #FEED01) !important;
+  background-image: linear-gradient(#ffc107, #FEED01);
 
   
 
-  /* background:
+  background:
         linear-gradient(red, transparent),
         linear-gradient(to top left, lime, transparent),
         linear-gradient(to top right, blue, transparent) !important;
-    background-blend-mode: screen !important; */
+    background-blend-mode: screen !important;
 
   /*-webkit-animation: bg-pan-left 15s infinite both !important;
   animation: bg-pan-left 15s infinite both !important; */
@@ -72,20 +80,67 @@
 
 /*Nav-bar background color*/
 .navbar{
-  background-color: black !important
+  background-color: black !important;
 }
 
 .footer{
-  background-color: black !important
+  /*ackground-color: #ffc107 !important;*/
+  background-image: linear-gradient(#ffc107, #FFED01) !important
+  /*background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, blue, transparent),
+        linear-gradient(to top right, lime, transparent) !important;
+    background-blend-mode: screen !important;*/
 }
 
+/* For the line separating the headers */
 .divider-custom .divider-custom-line{
-  background-color: black !important
-  
+  background-color: black !important;
 }
 
+/* For the icon that separates the headers */
 .divider-custom .divider-custom-icon{
-  color: black !important
+  color: black !important; 
+}
+
+/* This whole section is for masthead icon divider */
+.divider-custom1 .divider-custom-line3 {
+  width: 100% !important;
+  max-width: 7rem !important;
+  height: 0.25rem !important;
+  background-color: white !important;
+  border-radius: 1rem !important; 
+  border-color: white !important;
+}
+
+/* Read above*/
+.divider-custom1 .divider-custom-icon3 {
+  color: white !important;
+  font-size: 2rem !important;
+}
+/* For the masthead main heading */
+.divider-custom1.divider-light .divider-custom-line3 {
+  background-color: white !important;
+}
+
+/*For the masthead subheading main */
+.divider-custom1.divider-light .divider-custom-icon3 {
+  color: white !important;
+}
+
+/* For the main masthead heading icon divider */ 
+.divider-custom1 {
+  margin: 1.25rem 0 1.5rem !important;
+  width: 100% !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
 }
 
 .lead{
@@ -103,7 +158,7 @@
 .lead2{
   font-size: 1.00rem !important;
   font-weight: 250 !important;
-  color: white !important;
+  color: black !important;
   letter-spacing: 2px !important;
 }
 
@@ -146,9 +201,13 @@
 
 /* Social contacts when hover above */ 
 .btn-outline-light:hover {
-  color: #ffc107;
-  background-color: black;
-  border-color: #f8f9fa;
+  color: white;
+  background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent) !important;
+    background-blend-mode: screen !important;
+  border-color: white;
 }
 
 /* Configurations for the social icon moved to contact me section */
@@ -173,9 +232,14 @@
 
 /* When hover above these buttons */
 .btn-primary:hover {
-  color: #ffc107 !important;
-  background-color: black !important;
-  border-color: black !important;
+  color: white !important;
+  background-color: black;
+  border-color: white !important;
+  background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent) !important;
+    background-blend-mode: screen !important;
 }
 
 /* The little x in each portfolio item */
@@ -186,7 +250,7 @@
 /* The little x in each portfolio item when hovering above*/
 .close:hover {
   color: #000 !important; 
-  text-decoration: none !important; 
+  text-decoration: none !important;
 }
 
 /* .modal-content {
@@ -201,12 +265,18 @@
 
 /* Portfolio item when hover color */
 .portfolio .portfolio-item .portfolio-item-caption{
-  background-color: #ffc107 !important;
+  background-color: #ffc107;
+  background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent) !important;
+    background-blend-mode: screen !important;
+
   opacity: 0 !important;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1 !important;
+  opacity: 1 !important
 }
 
 /* ----------------------------------------------
@@ -251,10 +321,16 @@
 }
 /*To change background color when at section but hover at the nav bar item*/
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-  color: black;
-  background: indigo;
+  color: white !important;
+  background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent) !important;
+    background-blend-mode: screen !important;
 }
 
+/* Copyright section bottom page */
 .copyright {
-  background-color: #ffc107 !important;
+  background-color: black !important;
+
 }

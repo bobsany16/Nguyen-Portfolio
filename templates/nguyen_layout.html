@@ -58,12 +58,12 @@
       <h1 class="masthead-heading" >Linh A. Nguyen</h1>
 
       <!-- Icon Divider -->
-      <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-hand-peace"></i>
+      <div class="divider-custom1 divider-light">
+        <div class="divider-custom-line3"></div>
+        <div class="divider-custom-icon3">
+          <i class="fas fa-hand-peace fa-1x"></i>
         </div>
-        <div class="divider-custom-line"></div>
+        <div class="divider-custom-line3"></div>
       </div>
 
       <!-- Masthead Subheading -->
@@ -95,7 +95,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-black">
+              <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fab fa-java fa-5x"></i>
                 <i class="fas fa-plus fa-1x"></i>
                 <i class="fab fa-android fa-5x"></i>
@@ -109,7 +109,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-black">
+              <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fab fa-python fa-5x"></i>
                 <i class="fas fa-plus fa-1x"></i>
                 <i class="fab fa-r-project fa-5x"></i>
@@ -123,7 +123,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-black">
+              <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fab fa-react fa-5x"></i>
                 <i class="fas fa-plus fa-1x"></i>
                 <i class="fab fa-js-square fa-5x"></i>
@@ -184,11 +184,11 @@
 
       <!-- Icon Divider -->
       <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
+        <div class="divider-custom-line text-white"></div>
+        <div class="divider-custom-icon text-white">
           <i class="fas fa-child"></i>
         </div>
-        <div class="divider-custom-line"></div>
+        <div class="divider-custom-line text-white"></div>
       </div>
 
       <!-- About Section Content -->
@@ -231,7 +231,7 @@
       <!-- Icon Divider -->
       <div class="divider-custom">
         <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
+        <div class="divider-custom-icon text-black">
           <i class="fas fa-comment"></i>
         </div>
         <div class="divider-custom-line"></div>
@@ -245,14 +245,14 @@
           <a class="btn btn-outline-light btn-social mx-1" href="mailto:linh.ng754@gmail.com?Subject=Hi%20there,">
               <i class="fas fa-envelope"></i>
             </a>
-            <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/bobsany16">
+            <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/bobsany16" target="blank">
               <i class="fab fa-fw fa-github"></i>
             </a>
             <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/linhnguyen16" target="_blank">
               <i class="fab fa-fw fa-linkedin-in"></i>
             </a>
-            <a class="btn btn-outline-light btn-social mx-1" href="skype:nguyenanhlinh1998?userinfo">
-              <i class="fab fa-fw fa-dribbble"></i>
+            <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/BobbyWin16" target="blank">
+              <i class="fab fa-fw fa-twitter"></i>
             </a>
         </div>
       </div>
@@ -301,7 +301,7 @@
   </footer>
 
   <!-- Copyright Section -->
-  <section class="copyright py-4 text-center text-black">
+  <section class="copyright py-4 text-center text-white">
     <div class="container">
       <small>Copyright &copy; Linh Nguyen 2019</small>
     </div>
@@ -340,11 +340,11 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="{{ url_for('static', filename='img/portfolio/portfolio item 1.png') }}" alt="">
+                <img class="img-fluid rounded mb-5" src="{{ url_for('static', filename='img/portfolio/androidApp.png') }}" alt="">
                 <!-- Portfolio Modal - Text -->
                 <p class="mb-5">Have you ever had trouble coming up with tip amounts when eating out at restaurants? Well, this tip calculator helps you do exactly that. All you have to do is enter in the bill amount, 
-                                the percentage amount, and if you want to round or not and BAM! you have your tip calculated.
-                              </br> Built using Java, implemented MVC model. There are 3 versions: console-based, JavaFX, and Android </p>
+                                the percentage amount, and if you want to round it or not and BAM! You have your tip calculated.
+                              </br> Built using Java, implemented MVC model. There are 4 versions: console-based, Java.Swing, JavaFX, and Android </p>
                 <a class="btn btn-primary" href= "https://github.com/bobsany16/TipCalculatorConsole" target="blank">
                   <i class="fas fa-file-code"></i>
                   Console-based
@@ -397,10 +397,11 @@
                 <!-- Portfolio Modal - Text -->
                 <p class="mb-5">
                   The Fubuki Puzzle Solver helps computing the solutions to Fubuki Puzzles (as shown above). User is prompted to 
-                  enter the position (a1 - a9), its value of 1-9, and the corresponding R and C values. The program will output the solutions 
+                  enter the position (a1 - a9), its value of 1-9, and the corresponding R and C values. 
+                </br>The program will output the solutions 
                   along with the total number of solutions. 
                 </br>
-                  This program is coded using Python Dash, later translated into R Shiny. Implemented the use of numpy arrays and 
+                  This program is coded using Python Dash, later translated into R Shiny. Implemented the use of NumPy arrays and 
                   permutation function to find the numbers that will match the R and C values while fit with the position and valued selected.
 
 
@@ -436,7 +437,7 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">BELP</h2>
                 <!-- Icon Divider -->
                 <div class="divider-custom">
                   <div class="divider-custom-line"></div>
@@ -446,13 +447,24 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="{{ url_for('static', filename='img/portfolio/circus.png') }}" alt="">
+                <img class="img-fluid rounded mb-5" src="{{ url_for('static', filename='img/portfolio/Contact.png') }}" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
+                <p class="mb-5">
+                  Ever heard of Olean, NY? Well, I didn't think so either! 
+                </br>
+                  I moved to Olean, NY for college and the first thing I did was to check YELP for potential restaurants 
+                  I can go to but there was not many. However, I did find out a lot through friends. So, while doing a class project with 4 other people, 
+                  we decided to create our own 'YELP' website and named ours 'BELP' that gives reviews for restaurants and bars 
+                  in the local area for St. Bonaventure University students. 
+              </br>  </br>
+                We coded this project in React. We followed the Scrum work-flow and were able to deliver an initial prototype in only 3 weeks, which concluded our class.
+                Moving forward, we would like to revamp the layout, add more contents, and incorporate back-end developement. 
+
+                </p>
+                <a class="btn btn-primary" href="https://github.com/shikhardixitprojects/app-class-project" target="blank">
+                  <i class="fas fa-file-code"></i>
+                  View Code
+                </a>
               </div>
             </div>
           </div>
