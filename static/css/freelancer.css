@@ -24,8 +24,8 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #1abc9c;
-  --secondary: #2c3e50;
+  --primary: black !important;
+  --secondary:#FEED01 !important;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -3106,13 +3106,13 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light {
-  color: #f8f9fa;
-  border-color: #f8f9fa;
+  color: black;
+  border-color: black;
 }
 
 .btn-outline-light:hover {
-  color: #212529;
-  background-color: #f8f9fa;
+  color: #ffc107;
+  background-color: black;
   border-color: #f8f9fa;
 }
 
@@ -3128,7 +3128,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active,
 .show > .btn-outline-light.dropdown-toggle {
-  color: #212529;
+  color: #ffc107;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
@@ -10614,11 +10614,11 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #fff !important
+  background-color: black !important;
 }
 
 .divider-custom.divider-light .divider-custom-icon {
-  color: #fff !important;
+  color: black !important;
 }
 
 .btn-xl {
@@ -10676,7 +10676,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: #FEED01 !important
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -10707,13 +10707,16 @@ a.text-dark:hover, a.text-dark:focus {
   #mainNav .navbar-nav {
     margin-top: 0;
   }
+
+  /*To change the color when hover through sections*/
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #1abc9c;
+    color: black;
+    background: #ffc107;
   }
+  /*To change background color when at section but hover at the nav bar item*/
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: black;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -10791,12 +10794,14 @@ a.text-dark:hover, a.text-dark:focus {
 .portfolio-modal .portfolio-modal-title {
   font-size: 2.25rem;
   line-height: 2rem;
+  letter-spacing: 5px;
 }
 
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
     font-size: 3rem;
     line-height: 2.5rem;
+    letter-spacing: 5px;
   }
 }
 
