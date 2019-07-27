@@ -7,6 +7,6 @@
 __pycache__
 .venv/
 .vscode/
-.env/
-.txt
-*.zappa_settings.json
+env/
+*.txt
+zappa_settings.json
