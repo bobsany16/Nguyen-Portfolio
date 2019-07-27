@@ -1,0 +1,9 @@
+{
+    "dev": {
+        "app_function": "__init__.app",
+        "profile_name": "linhNguyen16",
+        "project_name": "portfoliodev",
+        "runtime": "python3.7",
+        "s3_bucket": "zappa-npcnul5i5"
+    }
+}
