@@ -6,11 +6,13 @@
     letter-spacing: 15px !important;
     font-Size: 4rem !important;
     color: white!important;
+    line-height: 4rem !important; 
+    
   }
 
 /* my picture main page */
 .masthead .masthead-avatar {
-    width: 35rem !important
+    width: 25rem !important
   }
 
 /* My job title */
