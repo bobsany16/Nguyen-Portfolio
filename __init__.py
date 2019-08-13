@@ -7,5 +7,5 @@ def root():
     return render_template("nguyen_layout.html")
 
 if __name__ == "__main__": 
-    app.run()
+    app.run(debug=True)
 
