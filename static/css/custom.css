@@ -86,8 +86,8 @@
 }
 
 .footer{
-  /*ackground-color: #ffc107 !important;*/
-  background-image: linear-gradient(#ffc107, #FFED01) !important
+  background-color: #ffc107 !important;
+  /*background-image: linear-gradient(#ffc107, #FFED01) !important*/
   /*background:
         linear-gradient(red, transparent),
         linear-gradient(to top left, blue, transparent),
