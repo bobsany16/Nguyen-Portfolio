@@ -10,3 +10,4 @@ __pycache__
 env/
 *.txt
 zappa_settings.json
+/venv
