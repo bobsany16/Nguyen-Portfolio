@@ -1,0 +1,12 @@
+{
+    "dev": {
+        "app_function": "__init__.app",
+        "profile_name": "linhNguyen16",
+        "project_name": "portfoliodev",
+        "runtime": "python3.7",
+        "s3_bucket": "zappa-npcnul5i5",
+	"domain":"linhnguyen.dev",
+	"certificate_arn":"arn:aws:acm:us-east-1:171846370947:certificate/6ba5a841-7cdc-4c3e-8319-afd6fdf6a1e2",
+	"route53_enabled":false
+    }
+}
