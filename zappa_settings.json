@@ -1,12 +1,13 @@
 {
-    "dev": {
+    "dev2": {
         "app_function": "__init__.app",
-        "profile_name": "linhNguyen16",
-        "project_name": "portfoliodev",
+        "aws_region": "us-east-1",
+        "profile_name": "default",
+        "project_name": "nguyen-portfoli",
+        "domain": "linhnguyen.dev",
         "runtime": "python3.7",
-        "s3_bucket": "zappa-npcnul5i5",
-	"domain":"linhnguyen.dev",
-	"certificate_arn":"arn:aws:acm:us-east-1:171846370947:certificate/6ba5a841-7cdc-4c3e-8319-afd6fdf6a1e2",
-	"route53_enabled":false
+        "s3_bucket": "zappa-y7b6l7dd9",
+        "route53_enabled":false,
+        "certificate_arn":"arn:aws:acm:us-east-1:171846370947:certificate/2377c231-5eac-4202-a986-eb3541737e06"
     }
 }
